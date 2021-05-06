@@ -1,7 +1,8 @@
 ''' Load libraries '''
 import pandas as pd                                             # For Data Exploration, Manipulation                                              # For punctuation 
 import numpy as np                                              # To create arrays
-import nltk                                                     # For Text Pre-processing                   
+import nltk                                                     # For Text Pre-processing 
+import re                                                       # For Text Pre-processing 
 from nltk.tokenize import word_tokenize                         # Tokenize text into words
 from nltk.stem import PorterStemmer                             # Reducing word to it's root
 from sklearn.feature_extraction.text import CountVectorizer     # Create Bag of Words
